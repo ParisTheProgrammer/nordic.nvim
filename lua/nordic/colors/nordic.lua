@@ -51,7 +51,7 @@ local palette = {
     -- These colors are used a lot, so we need variations for them.
     -- Base colors are from original Nord palette.
     red = {
-        base = '#BF616A',
+        base = '#CE858C',
         bright = '#C5727A',
         dim = '#B74E58',
     },
