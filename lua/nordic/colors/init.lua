@@ -82,7 +82,7 @@ function C.build_palette()
     C.git = {
         add = C.green.base,
         delete = C.red.base,
-        change = C.blue1,
+        change = C.yellow.base,
     }
 
     -- Diagnostics
