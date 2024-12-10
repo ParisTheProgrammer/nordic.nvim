@@ -103,10 +103,10 @@ function M.get_groups()
     G.DiagnosticVirtualTextWarning = { bg = C.black2, fg = C.warning } -- Used for "Warning" diagnostic virtual text
     G.DiagnosticVirtualTextInfo = { bg = C.black2, fg = C.info } -- Used for "Information" diagnostic virtual text
     G.DiagnosticVirtualTextHint = { bg = C.black2, fg = C.hint } -- Used for "Hint" diagnostic virtual text
-    G.DiagnosticUnderlineError = { undercurl = true, guisp = C.error, sp = C.error } -- Used to underline "Error" diagnostics
-    G.DiagnosticUnderlineWarn = { undercurl = true, guisp = C.warning, sp = C.warning } -- Used to underline "Warning" diagnostics
-    G.DiagnosticUnderlineInfo = { undercurl = true, guisp = C.info, sp = C.info } -- Used to underline "Information" diagnostics
-    G.DiagnosticUnderlineHint = { undercurl = true, guisp = C.hint, sp = C.hint } -- Used to underline "Hint" diagnostics
+    G.DiagnosticUnderlineError = { undercurl = true, sp = C.error } -- Used to underline "Error" diagnostics
+    G.DiagnosticUnderlineWarn = { undercurl = true, sp = C.warning } -- Used to underline "Warning" diagnostics
+    G.DiagnosticUnderlineInfo = { undercurl = true, sp = C.info } -- Used to underline "Information" diagnostics
+    G.DiagnosticUnderlineHint = { undercurl = true, sp = C.hint } -- Used to underline "Hint" diagnostics
     G.DiagnosticText = { bg = C.bg_float }
     G.LspSignatureActiveParameter = { bg = C.gray3, bold = true }
     G.LspCodeLens = { fg = C.comment }
