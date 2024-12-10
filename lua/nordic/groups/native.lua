@@ -98,15 +98,15 @@ function M.get_groups()
     G.DiagnosticWarn = { fg = C.warning } -- Used as the base highlight group. Other Diagnostic highlights link to this by default
     G.DiagnosticInfo = { fg = C.info } -- Used as the base highlight group. Other Diagnostic highlights link to this by default
     G.DiagnosticHint = { fg = C.hint } -- Used as the base highlight group. Other Diagnostic highlights link to this by default
-    G.DiagnosticVirtualTextError = { bg = C.gray1, fg = C.error, bold = true } -- Used for "Error" diagnostic virtual text
-    G.DiagnosticVirtualTextWarn = { bg = C.gray1, fg = C.warning } -- Used for "Warning" diagnostic virtual text
-    G.DiagnosticVirtualTextWarning = { bg = C.gray1, fg = C.warning } -- Used for "Warning" diagnostic virtual text
-    G.DiagnosticVirtualTextInfo = { bg = C.gray1, fg = C.info } -- Used for "Information" diagnostic virtual text
-    G.DiagnosticVirtualTextHint = { bg = C.gray1, fg = C.hint } -- Used for "Hint" diagnostic virtual text
-    G.DiagnosticUnderlineError = { undercurl = true, sp = C.error } -- Used to underline "Error" diagnostics
-    G.DiagnosticUnderlineWarn = { undercurl = true, sp = C.warning } -- Used to underline "Warning" diagnostics
-    G.DiagnosticUnderlineInfo = { undercurl = true, sp = C.info } -- Used to underline "Information" diagnostics
-    G.DiagnosticUnderlineHint = { undercurl = true, sp = C.hint } -- Used to underline "Hint" diagnostics
+    G.DiagnosticVirtualTextError = { bg = C.black2, fg = C.error, bold = true } -- Used for "Error" diagnostic virtual text
+    G.DiagnosticVirtualTextWarn = { bg = C.black2, fg = C.warning } -- Used for "Warning" diagnostic virtual text
+    G.DiagnosticVirtualTextWarning = { bg = C.black2, fg = C.warning } -- Used for "Warning" diagnostic virtual text
+    G.DiagnosticVirtualTextInfo = { bg = C.black2, fg = C.info } -- Used for "Information" diagnostic virtual text
+    G.DiagnosticVirtualTextHint = { bg = C.black2, fg = C.hint } -- Used for "Hint" diagnostic virtual text
+    G.DiagnosticUnderlineError = { undercurl = true, guisp = C.error, sp = C.error } -- Used to underline "Error" diagnostics
+    G.DiagnosticUnderlineWarn = { undercurl = true, guisp = C.warning, sp = C.warning } -- Used to underline "Warning" diagnostics
+    G.DiagnosticUnderlineInfo = { undercurl = true, guisp = C.info, sp = C.info } -- Used to underline "Information" diagnostics
+    G.DiagnosticUnderlineHint = { undercurl = true, guisp = C.hint, sp = C.hint } -- Used to underline "Hint" diagnostics
     G.DiagnosticText = { bg = C.bg_float }
     G.LspSignatureActiveParameter = { bg = C.gray3, bold = true }
     G.LspCodeLens = { fg = C.comment }
